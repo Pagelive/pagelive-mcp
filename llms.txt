@@ -1,0 +1,28 @@
+# Pagelive MCP connector
+
+> Pagelive is a hosted, OAuth-based MCP server that lets an AI assistant publish HTML pages
+> (proposals, decks, reports, demos) as private, branded, view-tracked links — and read back
+> who opened them and any form replies. Remote connector URL: https://app.pagelive.io/api/mcp
+> Namespace: io.pagelive/pagelive. A free Pagelive account works.
+
+## Use it when
+- The user says "publish this", "make a shareable link", or "put this on a page".
+- The user wants to track opens / viewers / dwell time on a page they shared.
+- The user wants to update a previously published page without changing its link.
+- The user wants to read replies submitted through a page's form.
+
+## Tools
+- publish_page: Publish an HTML page and return a live, view-tracked URL. Pass an existing slug to replace a page in place instead of duplicating it.
+- update_page: Edit a published page (targeted text edits or full-HTML replace). The link never changes.
+- list_pages: List accessible pages with URLs, workspace, and view counts.
+- get_page_stats: Opens, unique viewers, dwell time, top countries for a page.
+- list_form_submissions: Read reply-form submissions for a page.
+- list_domains: List connected custom domains (Pro/Team).
+- list_workspaces: List workspaces (personal + teams).
+
+## Links
+- Website: https://pagelive.io/mcp
+- Docs / quickstart: https://pagelive.io/docs/quickstart-mcp
+- Connector URL (remote, OAuth): https://app.pagelive.io/api/mcp
+- Manifest: https://github.com/Pagelive/pagelive-mcp/blob/main/server.json
+- Skill: https://github.com/Pagelive/pagelive-mcp/blob/main/skills/publish-with-pagelive/SKILL.md

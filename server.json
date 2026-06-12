@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.pagelive/pagelive",
+  "title": "Pagelive",
+  "description": "Publish pages straight from Claude as private, branded, tracked links.",
+  "version": "0.2.0",
+  "websiteUrl": "https://pagelive.io/mcp",
+  "repository": {
+    "url": "https://github.com/Pagelive/pagelive-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.pagelive.io/api/mcp"
+    }
+  ]
+}
