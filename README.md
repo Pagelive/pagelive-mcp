@@ -1,5 +1,7 @@
 # Pagelive MCP connector
 
+[![MCP Badge](https://lobehub.com/badge/mcp/pagelive-pagelive-mcp)](https://lobehub.com/mcp/pagelive-pagelive-mcp)
+
 **Publish the pages you build with AI — straight from the conversation — as private, branded, view‑tracked links.**
 
 Pagelive turns any HTML page (a proposal, deck, report, or demo) into a clean link you can
